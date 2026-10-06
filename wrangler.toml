@@ -1,12 +1,12 @@
 name = "status-worker"
 workers_dev = false
-account_id = ""
+account_id = "0cee8561e3989abcad569632b8652767"
 compatibility_date = "2022-10-06"
 main = "src/index.ts"
 
-kv_namespaces = [
-  { binding = "KV", id = "a", preview_id = "a" }
-]
-
 [triggers]
 crons = ["* * * * *"]
+
+[[kv_namespaces]]
+binding = "KV"
+id = "a9216137f5454043833781f64f0d277d"

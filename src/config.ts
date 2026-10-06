@@ -19,11 +19,11 @@ export default Object.freeze<Config>({
   ////////////////////////////////////////
   NAME: 'Status Update',
   // Discord bot avatar URL (Make sure to respect trademarks and brand guidelines!)
-  AVATAR_URL: '',
+  AVATAR_URL: 'https://cdn.discordapp.com/avatars/1555677338493255760/2a0c4c1703fbe9bc7f9f1faa241c9931.webp?size=4096',
   // If we should try to publish messages to Discord (requires PUBLISH_CHANNEL_ID to be an announcement channel)
   PUBLISH_MESSAGE: true,
   // Channel ID used for publishing
-  PUBLISH_CHANNEL_ID: '',
+  PUBLISH_CHANNEL_ID: '1505931753036976279',
   // Statuses you want excluded from being sent
   EXCLUDED_STATUSES: ['maintenance'],
 });
