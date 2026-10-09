@@ -9,8 +9,8 @@ crons = ["* * * * *"]
 
 [[kv_namespaces]]
 binding = "KV"
-id = "a9216137f5454043833781f64f0d277d"
+id = "2f55536c6656465c9a658be5491804f8"
 
 [[previews.kv_namespaces]]
 binding = "KV"
-id = "a9216137f5454043833781f64f0d277d"
+id = "2f55536c6656465c9a658be5491804f8"
