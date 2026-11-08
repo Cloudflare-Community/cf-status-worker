@@ -4,9 +4,13 @@ account_id = ""
 compatibility_date = "2022-10-06"
 main = "src/index.ts"
 
-kv_namespaces = [
-  { binding = "KV", id = "a", preview_id = "a" }
-]
-
 [triggers]
 crons = ["* * * * *"]
+
+[[kv_namespaces]]
+binding = "KV"
+id = "abc123"
+
+[[previews.kv_namespaces]]
+binding = "KV"
+id = "abc123"
