@@ -1,22 +1,27 @@
 {
-  "name": "status-worker",
-  "version": "2.0.0",
-  "description": "Easily follow status pages and send updates to your Discord server!",
-  "main": "src/index.ts",
-  "scripts": {
-    "dev": "wrangler dev src/index.ts"
-  },
-  "keywords": [
-    "cloudflare",
-    "workers",
-    "statuspage",
-    "status",
-    "cloudflare workers"
-  ],
-  "author": "Daniel Walsh (@WalshyDev)",
-  "license": "MIT",
-  "devDependencies": {
-    "@cloudflare/workers-types": "^5.20261104.1",
-    "wrangler": "^4.158.0"
-  }
+	"name": "status-worker",
+	"version": "2.0.0",
+	"description": "Easily follow status pages and send updates to your Discord server!",
+	"keywords": [
+		"cloudflare",
+		"cloudflare workers",
+		"status",
+		"statuspage",
+		"workers"
+	],
+	"license": "MIT",
+	"author": "Daniel Walsh (@WalshyDev)",
+	"main": "src/index.ts",
+	"scripts": {
+		"dev": "wrangler dev src/index.ts",
+		"format": "oxfmt",
+		"format:check": "oxfmt --check",
+		"typecheck": "tsc"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^5.20261104.1",
+		"oxfmt": "^0.78.0",
+		"typescript": "^7.0.2",
+		"wrangler": "^4.158.0"
+	}
 }
